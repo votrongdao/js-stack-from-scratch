@@ -1,14 +1,18 @@
 # 01 - Node, Yarn, and `package.json`
 
-Code for this chapter available [here](https://github.com/verekia/js-stack-walkthrough/tree/master/01-node-yarn-package-json).
+Code sẵn có cho chương này [here](https://github.com/verekia/js-stack-walkthrough/tree/master/01-node-yarn-package-json).
 
 In this section we will set up Node, Yarn, a basic `package.json` file, and try a package.
-
+Trong chương này chúng tôi sẽ cài đặt node, Yarn, một file `package.json`  cơ bản, và thử 1 package 
 ## Node
 
 > 💡 **[Node.js](https://nodejs.org/)** is a JavaScript runtime environment. It is mostly used for Back-End development, but also for general scripting. In the context of Front-End development, it can be used to perform a whole bunch of tasks like linting, testing, and assembling files.
 
+> 💡 **[Node.js](https://nodejs.org/)** là một môi trường chạy Javascript  . Nó không những chủ yếu được dùng phát triển Back-end, mà còn cho kịch bản chung. Trong bối cảnh của phát triển Front-End, nó có thể được dùng để thực hiện một loạt tác vụ như linting (phân tích source code), testing và lắp ráp files
+
 We will use Node for basically everything in this tutorial, so you're going to need it. Head to the [download page](https://nodejs.org/en/download/current/) for **macOS** or **Windows** binaries, or the [package manager installations page](https://nodejs.org/en/download/package-manager/) for Linux distributions.
+
+Về cơ bản Chúng tôi sử dụng Node cho tất cả mọi thứ trong hướng dẫn này, vì thế bạn cũng sẽ cần đến nó. Truy cập để [download trang này] (https://nodejs.org/en/download/current/) với **macOS** hoặc **Windows**, or [trang cài đặt package manager](https://nodejs.org/en/download/package-manager/) cho Linux.
 
 For instance, on **Ubuntu / Debian**, you would run the following commands to install Node:
 
